@@ -36,7 +36,7 @@ Following **options** can be supplied to diskstat
 - **-path** - Path of the mountpath which disk usage you want to monitor
 - **-certFile** - Path to certificate for serving TLS. The certfile should include the whole certificate chain. This means certificate, intermediates and CA. If this option is supplied keyFile option must be also supplied.
 - **-keyFile** - Path to private key for the certificate.
-
+- **-v** - Verbose logging
 
 Following **Environment variables** can be supplied to diskstat
 - **METRICS_PORT** - Application port. Defaults to 8080.
